@@ -18,7 +18,7 @@
   height: 175px;
   justify-content: center;
   align-items: center;
-  font-size: 65px;
+  font-size: 55px;
   word-break: break-all;
   color: #32314c;
 }
@@ -28,8 +28,8 @@
   background-color: #716dac;
   border-radius: 6px;
   height: 65px;
-  font-size: 50px;
+  font-size: 30px;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   color: white;
 }
