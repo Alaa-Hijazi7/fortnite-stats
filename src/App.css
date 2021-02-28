@@ -17,8 +17,71 @@ body,
 }
 body {
   background-color: #14131d;
-  background-image: url(./assets/images/pattren.png);
 }
 header {
   display: flex;
+}
+#circle {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem auto;
+  position: relative;
+  border-top: 0.5em solid #716dac;
+  border-right: 0.5em solid #cbc7ff;
+  border-bottom: 0.5em solid #716dac;
+  border-left: 0.5em solid #cbc7ff;
+  animation: CircleLoader 1s infinite linear;
+}
+@keyframes CircleLoader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .card {
+    width: 30%;
+  }
+  #cards {
+    margin-left: 5.6rem;
+  }
+  .card h2 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  form {
+    flex-direction: column;
+  }
+  header input:first-child {
+    width: 100%;
+    font-size: 25px;
+  }
+  header input:last-child {
+    font-size: 20px;
+    width: 50%;
+    align-self: center;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  #user-info img {
+    width: 50px;
+  }
+  #user-info > div {
+    font-size: 18px;
+  }
+  .card {
+    width: 100%;
+  }
+  #cards {
+    margin-left: 5.6rem;
+  }
+  .card h2 {
+    font-size: 55px;
+  }
 }
