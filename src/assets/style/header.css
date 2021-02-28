@@ -15,8 +15,15 @@ nav {
   left: 0;
   height: 100%;
 }
-header input {
+form {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  margin-left: 7rem;
+}
+header input:first-child {
+  width: 80%;
   outline: none;
   padding: 10px 20px;
   border-radius: 8px;
@@ -27,9 +34,28 @@ header input {
   margin-top: 40px;
   background-color: #222134da;
   margin-right: 20px;
-  margin-left: 7rem;
 }
-header input::placeholder {
+header input:last-child {
+  width: 20%;
+  align-self: flex-end;
+  padding: 10px 15px;
+  outline: none;
+  border: 3px solid #cbc7ff;
+  background-color: transparent;
+  color: #cbc7ff;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+header input:last-child:hover {
+  background-color: #cbc7ff;
+  border: none;
+  color: #32314c;
+  border: 3px solid #cbc7ff;
+  filter: drop-shadow(1px 2px 5px #716dac);
+}
+header input:first-child::placeholder {
   color: #716dac56;
 }
 #logo {
