@@ -1,0 +1,35 @@
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: 7rem;
+}
+.card {
+  background-color: #cbc7ff;
+  border-radius: 6px;
+  width: 22%;
+  max-width: 215px;
+  margin: 10px;
+}
+.card h2 {
+  display: flex;
+  margin: 10px;
+  height: 175px;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+  word-break: break-all;
+  color: #32314c;
+}
+
+.card h3 {
+  display: flex;
+  background-color: #716dac;
+  border-radius: 6px;
+  height: 65px;
+  font-size: 50px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
