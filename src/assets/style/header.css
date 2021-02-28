@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90px;
+  background-color: #cbd2d9;
+  border-left: 15px solid #716dac;
+  margin-right: 30px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+header input {
+  width: 100%;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 30px;
+  color: #716dac;
+  align-self: end;
+  margin-top: 40px;
+  background-color: #222134da;
+  margin-right: 20px;
+  margin-left: 7rem;
+}
+header input::placeholder {
+  color: #716dac56;
+}
+#logo {
+  margin-top: 20px;
+  color: #716dac;
+  width: 95%;
+}
+#github-logo,
+#instagram-logo {
+  width: 70%;
+}
+#instagram-logo {
+  filter: sepia(80%) hue-rotate(247deg) saturate(2);
+}
