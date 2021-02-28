@@ -12,3 +12,9 @@
   margin: 0 10px;
   user-select: none;
 }
+#username span {
+  color: #cbc7ff;
+}
+#platform span {
+  color: #cbc7ff;
+}
