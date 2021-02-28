@@ -69,7 +69,7 @@ function App() {
       const action2 = { type: "success", payload: data };
       dispatch(action2);
     } catch (error) {
-      let errMsg;
+      let errMsg = "hi";
       const action3 = { type: "error", error: errMsg };
       dispatch(action3);
     }
@@ -91,7 +91,6 @@ function App() {
         </form>
       </header>
       {state.loading && <div id="circle"></div>}
-      
       {state.data.season && !state.loading && <React.Fragment>
         <section id="user-info">
           <img src="https://i.pinimg.com/564x/98/a8/a3/98a8a3155d35787032a5105084e95832.jpg" alt="user avatar" />
@@ -111,6 +110,7 @@ function App() {
         </section>
       </React.Fragment>
       }
+      {<h1 id="errorMsg">{state.data?.error}</h1> }
     </main>
   );
 }

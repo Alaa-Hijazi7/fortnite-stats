@@ -41,7 +41,12 @@ header {
     transform: rotate(360deg);
   }
 }
-
+#errorMsg {
+  margin-left: 7rem;
+  margin-top: 3rem;
+  color: #cbc7ff;
+  text-align: center;
+}
 @media screen and (max-width: 769px) {
   .card {
     width: 30%;
