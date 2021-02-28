@@ -1,0 +1,14 @@
+#user-info {
+  display: flex;
+  align-items: center;
+  margin: 1.3rem;
+  margin-left: 7rem;
+  color: #434064;
+  font-size: 30px;
+}
+#user-info img {
+  width: 80px;
+  border-radius: 50%;
+  margin: 0 10px;
+  user-select: none;
+}
