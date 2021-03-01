@@ -96,7 +96,7 @@ function App() {
           <img src="https://i.pinimg.com/564x/98/a8/a3/98a8a3155d35787032a5105084e95832.jpg" alt="user avatar" />
           <div>
             <h3 id="username">displayName: <span>{state.data.user?.displayName}</span></h3>
-            <h4 id="platform">platform: <span>{ state.data.user?.externalAuths?.psn?.type }</span></h4>
+            <h4 id="platform">platform: <span>{ state.data.user?.externalAuths?.psn?.type || "PC" }</span></h4>
           </div>
         </section>
         <section id="cards">
