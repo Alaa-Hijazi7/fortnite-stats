@@ -70,13 +70,13 @@ export default function App() {
     <main className="App">
       <header>
         <nav>
-          <img src="https://pasteboard.co/JTY5O4N.png" alt="logo" id="logo" />
+          <img src="/logo.png" alt="logo" id="logo" />
           <div>
             <a href="https://www.instagram.com/alaahijazi.7/" target="_blank" rel="noreferrer">
-              <img src="https://ibb.co/xzHZs54" alt="instagram logo" id="instagram-logo" />
+              <img src="/instagramLogo.png" alt="instagram logo" id="instagram-logo" />
             </a>
             <a href="https://github.com/Alaa-Hijazi7" target="_blank" rel="noreferrer">
-              <img src="https://ibb.co/Y0Gk7Bp" alt="github logo" id="github-logo" />
+              <img src="/github-square-brands.svg" alt="github logo" id="github-logo" />
             </a>
           </div>
         </nav>
